@@ -1,1 +1,1 @@
-# Hex-to-CSS-filter
+# Hex to CSS filter
