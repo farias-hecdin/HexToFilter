@@ -1,0 +1,64 @@
+/* ==========================================================================
+ * Index: Common
+ * ========================================================================== */
+
+/* Configuración
+   ========================================================================== */
+
+/* Settings (fonts, var, ...) */
+@import 'SETTINGS/settings-Fuentes.css';
+
+
+/* Generics (css reset, plugin, ...) */
+@import 'SETTINGS/generics-PluginNormalize.css';
+@import 'SETTINGS/generics-Ajustes.css';
+
+
+/* Elements (body, p, h1, button, ...) */
+@import 'SETTINGS/elements-Bases.css';
+
+
+
+/* Componentes
+   ========================================================================== */
+
+/* BODY */
+@import "container-Body.css";
+
+/* MAIN */
+@import "container-Main.css";
+
+/* CabeceraPrincipal */
+@import "container-CabeceraPrincipal.css";
+
+/* LienzoColores */
+@import "container-LienzoColores.css";
+	@import "frame-LienzoColor.css";
+	
+/* AreaTrabajo */	
+@import "container-AreaTrabajo.css";
+
+	/* ResultadoDetalles */
+	@import "frame-ResultadoDetalles.css";
+	
+	/* Form */
+	@import "container-Form.css";
+		@import "form-Area.css";
+
+/* PiePrincipal */
+@import "container-PiePrincipal.css";
+	
+	/* SocialPrincipal */
+	@import "nav-SocialPrincipal.css";
+		@import "btn-SocialPrincipal.css";
+	
+	/* Creditos */
+	@import "text-Creditos.css";
+
+
+
+/* Modificadores
+   ========================================================================== */
+
+/* Genericos */
+@import "REGLAS.css";

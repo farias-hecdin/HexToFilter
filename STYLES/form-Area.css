@@ -1,0 +1,56 @@
+/* ==========================================================================
+ * Index: Area
+ * ========================================================================== */
+
+/* Estilos
+   ========================================================================== */
+.form-Area {
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+	margin: 1em;
+	padding: 1em;
+	width: 80%;
+	border: 0;
+	border-radius: .5em;
+	background: #1d1d1d;
+}
+
+.form-Area__caja {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.form-Area__boton {
+	padding: .5em 1em;
+	margin: .8em;
+	width: 8em;
+	border: .2vh solid #05c46b;
+	font-weight: 600;
+	background-color: transparent;
+	color: #05c46b;
+}
+
+.form-Area__input {
+	padding: .5em;
+	margin: .5em 0;
+	border: 0;
+	border-bottom: .2vh solid #fff;
+	color: #fff;
+	background-color: transparent;
+}
+
+.form-Area__input:focus {
+	outline:none;
+	border-bottom: .2vh solid #05c46b;
+}
+
+
+
+/* Transiciones
+   ========================================================================== */
+.form-Area__boton:hover {
+	background-color: #05c46b;
+	color: #1d1d1d;
+}

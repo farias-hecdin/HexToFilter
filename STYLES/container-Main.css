@@ -1,0 +1,9 @@
+/* Estilos
+   ========================================================================== */
+.container-Main {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	flex-basis: 50%;
+	overflow-y: auto;
+}
