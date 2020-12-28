@@ -1,0 +1,64 @@
+/* ==========================================================================
+ * Etiquetas
+ * ========================================================================== */
+
+body {
+	background-color: #fff;
+	}
+
+body, p {
+	font-size: 1.2vw;
+	}
+
+body, p, a, span, div, footer, input, label, button {
+	font-family: 'Montserrat', sans-serif; font-weight: 400;
+	}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Montserrat', sans-serif; font-weight: 800; color: #fff;
+	}
+
+h1, h2, h3, h4, h5, h6, p, span, a, button {
+	margin: 0;
+	}
+
+p, label {
+	text-align: left;
+	color: #fff;
+	}
+
+code {
+	color: grey;
+	}
+
+menu {
+	margin: 0; padding: 0;
+	}
+
+button {
+	border: none;
+	text-decoration: none;
+	cursor: pointer;
+	}
+
+button, summary {
+	outline: none;
+	}
+
+img {
+	display: inline-block;
+	}
+
+li::after, .li::before {
+	display: flex; align-items: center; justify-content: center;
+	}
+
+
+
+/* Media portait
+   ========================================================================== */
+@media (orientation: portrait) {
+body, p {
+	font-size: 2.8vw;
+	}
+}
