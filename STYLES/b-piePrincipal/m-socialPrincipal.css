@@ -1,0 +1,26 @@
+/* ==========================================================================
+ * socialPrincipal
+ * ========================================================================== */
+
+.m-socialPrincipal {
+	display: flex; align-items: center;
+	margin-bottom: .5em;
+	}
+
+.e-socialPrincipal__autor {
+	width: 50%;
+	}
+
+.m-socialPrincipal__boton {
+	margin: .5em;
+	}
+
+.e-socialPrincipal_imagen {
+	padding: .2em; width: 2.5em;
+	border: .2vh solid #000; border-radius: 50%;
+	filter: invert(100%) sepia(20%) saturate(28%) hue-rotate(53deg) brightness(106%) contrast(107%);
+	}
+
+.e-socialPrincipal_imagen:hover {
+	filter: invert(72%) sepia(75%) saturate(4639%) hue-rotate(113deg) brightness(96%) contrast(96%);
+	}
