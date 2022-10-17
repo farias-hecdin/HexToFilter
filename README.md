@@ -1,4 +1,4 @@
-# HexFiltro
+# HexToFilter
 
 Hex to CSS filter generator.
 
