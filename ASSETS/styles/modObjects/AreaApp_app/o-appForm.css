@@ -1,0 +1,33 @@
+/* appForm
+   ====================================================================== */
+
+.o-appForm {
+  display: flex;
+  gap: 3rem;
+  color: #fff;
+  margin: 3rem 0 0;
+}
+
+.o-appForm__item {
+  flex-basis: 50%;
+  display: block;
+  padding: 2em;
+  border: 0;
+  border-radius: 0.5em;
+  background: var(--th-secondary, #1d1d1d);
+}
+
+.o-appForm__text {
+  margin-bottom: 1rem;
+}
+
+.o-appForm__field {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.o-appForm__button {
+  width: 12rem;
+}

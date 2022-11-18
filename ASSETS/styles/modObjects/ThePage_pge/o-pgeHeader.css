@@ -1,0 +1,17 @@
+/* pgeHeader
+ * ====================================================================== */
+
+.o-pgeHeader {
+  color: var(--th-primary-text);
+}
+
+.o-pgeHeader__title {
+  font-weight: var(--fo-thin);
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.o-pgeHeader__text {
+  margin-top: 0.2rem;
+  text-align: center;
+}

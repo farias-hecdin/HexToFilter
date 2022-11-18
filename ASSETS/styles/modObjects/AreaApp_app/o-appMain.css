@@ -1,0 +1,23 @@
+/* appMain
+   ====================================================================== */
+
+.o-appMain {
+  padding: 2rem 4rem;
+}
+
+.o-appMain__content {
+  padding: 6rem 0 1rem;
+  color: var(--th-primary-text);
+}
+
+.o-appMain__title {
+  margin-bottom: 0.25em;
+  font-size: 1.2rem;
+  font-weight: var(--fo-bold);
+  text-align: center;
+}
+
+.o-appMain__text {
+  margin-bottom: 2em;
+  text-align: center;
+}

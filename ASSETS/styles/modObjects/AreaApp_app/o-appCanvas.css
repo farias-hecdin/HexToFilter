@@ -1,0 +1,24 @@
+/* appCanvas
+   ====================================================================== */
+
+.o-appCanvas {
+  position: relative;
+  display: flex;
+  height: 35vh;
+  width: 100%;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.o-appCanvas__item {
+  flex-basis: 50%;
+}
+.o-appCanvas__float {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 1.5rem 1.5rem 1.3rem;
+  border-radius: 0.5rem;
+  color: var(--th-primary-text);
+  background-color: var(--th-primary);
+}

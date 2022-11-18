@@ -1,0 +1,19 @@
+/* btnOutline-HX
+   ====================================================================== */
+
+.c-btnOutline-HX {
+  padding: 0.5em 1em;
+  width: 8em;
+  border: 1px solid var(--th-tertiary);
+  color: var(--th-tertiary-text);
+  background-color: var(--co-blank);
+}
+.c-btnOutline-HX:hover {
+  color: var(--th-secondary);
+  background-color: var(--th-tertiary);
+}
+
+.c-btnOutline-HX__text {
+  font-weight: var(--fo-medium);
+  pointer-events: none;
+}

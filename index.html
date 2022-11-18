@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <link rel="stylesheet" href="ASSETS/styles/main.css" />
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+    <link rel="icon" href="ASSETS/media/favicon.png" type="image/x-icon" />
+    <title>HexToFilter: HEX to CSS Filter generator</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Add beautiful color to your single-color icons quickly and easily." />
+    <meta name="author" content="Hecdin Farias" />
+    <meta property="og:type" content="website"/>
+    <meta property="og:site_name" content="HexToFilter"/>
+    <meta property="og:title" content="HexToFilter: HEX to CSS Filter generator"/>
+    <meta property="og:description" content="Hex to CSS Filter Generator"/>
+    <meta property="og:url" content="..."/>
+  </head>
+  <body class="o-pgeLayout" data-theme="normal">
+    <header class="o-pgeLayout__header / o-pgeHeader">
+      <h1 class="o-pgeHeader__title">HexToFilter</h1>
+      <p class="o-pgeHeader__text">
+        Hex to CSS Filter Generator.
+        Now you will be able to add color to your favorite icons easily.
+      </p>
+    </header>
+    <main class="o-pgeLayout__main / o-appMain">
+      <aside class="o-appCanvas">
+        <div class="o-appCanvas__item / c-CanvasColor">
+          <div class="c-CanvasColor__frame / s-defaultPixel" id="HEX_PIXEL"></div>
+          <span class="c-CanvasColor__title --left">BACKGROUND</span>
+        </div>
+        <div class="o-appCanvas__item / c-CanvasColor">
+          <div class="c-CanvasColor__frame / s-defaultPixel" id="FILTER_PIXEL"></div>
+          <span class="c-CanvasColor__title --right">FILTER</span>
+        </div>
+        <div class="o-appCanvas__float / c-DataDisplay">
+            <span class="c-DataDisplay__title">Percentage loss</span>
+            <p class="c-DataDisplay__number / s-lossDetail">0.0%</p>
+        </div>
+      </aside>
+      <div class="o-appForm">
+        <fieldset class="o-appForm__item">
+          <label for="TARGET_HEX">
+            <p class="o-appForm__text">
+              <b>Enter the color Hex</b>
+              – Real pixel, color applied through CSS
+              <code>background-color</code>
+            </p>
+          </label>
+          <div class="o-appForm__field">
+            <input
+              class="c-Textbox"
+              id="TARGET_HEX"
+              type="text"
+              placeholder="target hex"
+              value="#00a4d6"
+              spellcheck="false"
+              autocorrect="off"
+              required
+            />
+            <button class="o-appForm__button / c-btnOutline-HX" id="BTN_EXECUTE" onclick="action()">
+              <span class="c-btnOutline-HX__text">Converter</span>
+            </button>
+          </div>
+        </fieldset>
+        
+        <div class="o-appForm__item">
+          <label for="TEXT_INPUT">
+            <p class="o-appForm__text">
+              <b>Result obtained</b>
+              – Filtered pixel, color applied through CSS
+              <code>filter</code>
+            </p>
+          </label>
+          <div class="o-appForm__field">
+            <input class="c-Textbox" id="TEXT_INPUT" type="text" placeholder="css filter" />
+            <button class="o-appForm__button / c-btnOutline-HX" onclick="copyText()">
+              <span class="c-btnOutline-HX__text">Copy</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <section class="o-appMain__content">
+        <h2 class="o-appMain__title">How to use HexToFilter?</h2>
+        <p class="o-appMain__text">
+          To use HexToFilter just enter your hex color, click the "Convert" button, copy the result and paste it into
+          your CSS stylesheet.
+        </p>
+        <h2 class="o-appMain__title">Why the icon does not change to the chosen color?</h2>
+        <p class="o-appMain__text">
+          For this tool to work properly, the initial color of the icon must be black. If your icon is not black, you
+          can prefix</br>
+          <code>brightness(0%) saturation(100%)</code>
+          to your filter property to convert the icon set to black.<br>
+          If the website is not working properly it is probably because you are using an outdated version of your 
+          browser.
+        </p>
+      </section>
+    </main>
+    <footer class="o-pgeLayout__footer">
+      <div class="o-pgeFooter">
+          <div class="o-pgeFooter__wrap">
+            <p class="o-pgeFooter__text">
+              This website design was done by 
+              <a class="c-Links" href="https://ve.linkedin.com/in/farias-hecdin" target="_blank">Hecdin Farias</a>.
+            </p>
+          </div>
+          <nav class="o-pgeFooter__social">
+            <a class="o-pgeFooter__button / c-btnOutline-LI" href="https://github.com/nicolaQuien" target="_blank">
+              <img class="c-btnOutline-LI__icon" src="ASSETS/media/icons/github.svg" alt="Github" />
+            </a>
+          </nav>
+          <div class="o-pgeFooter__wrap">
+            <p class="o-pgeFooter__text --right">
+              Credit for the development of the "Hex to CSS filter" algorithm
+              <a class="c-Links" href="https://github.com/barretts" target="_blank">Barrett Sonntag</a>
+              and
+              <a class="c-Links" href="https://bit.ly/3Bptyik" target="_blank">MultiplyByZer0</a>.
+            </p>
+          </div>
+        </footer>
+    <script src="ASSETS/scripts/converter_1.5.js"></script>
+    <script src="ASSETS/scripts/features.js"></script>
+  </body>
+</html>

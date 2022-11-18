@@ -1,0 +1,19 @@
+/* pgeLayout
+   ====================================================================== */
+
+.o-pgeLayout {
+  background: var(--th-primary);
+}
+
+.o-pgeLayout__header {
+  padding: 1.5rem 4rem;
+}
+
+.o-pgeLayout__main {
+  min-height: 90vh;
+}
+
+.o-pgeLayout__footer {
+  padding: 2rem 4rem 3rem;
+  background: var(--th-secondary);
+}

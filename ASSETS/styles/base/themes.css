@@ -1,0 +1,15 @@
+/* THEMES
+   ====================================================================== */
+
+body[data-theme="normal"] {
+  --th-primary: var(--co-mineShaft);
+  --th-primary-text: var(--co-white);
+
+  --th-secondary: var(--co-coldGray);
+  --th-secondary-text: var(--co-gray);
+  --th-secondary-border: var(--co-gray);
+
+  --th-tertiary: var(--co-jade);
+  --th-tertiary-text: var(--co-jade);
+  --th-tertiary-border: var(--co-jade);
+}

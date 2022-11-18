@@ -1,0 +1,12 @@
+/* COLORS
+   ====================================================================== */
+
+:root {
+  --co-blank: transparent;
+  --co-black: #000000;
+  --co-white: #ffffff;
+  --co-mineShaft: #333333;
+  --co-gray: #8d8d8d;
+  --co-jade: #05c46b;
+  --co-coldGray: #1d1d1d;
+}

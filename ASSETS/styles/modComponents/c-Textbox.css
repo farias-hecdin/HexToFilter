@@ -1,0 +1,20 @@
+/* Textbox
+   ====================================================================== */
+
+.c-Textbox {
+  width: 100%;
+  padding: 0.2em;
+  border: 0;
+  border-bottom: 1px solid var(--th-primary-text);
+  font-family: var(--fo-secondary);
+  font-size: 1rem;
+  color: var(--th-primary-text);
+  background-color: var(--co-blank);
+}
+.c-Textbox:hover {
+  border-bottom: 1px solid var(--th-tertiary);
+}
+.c-Textbox:focus {
+  border-bottom: 1px solid var(--th-tertiary);
+  outline: none;
+}

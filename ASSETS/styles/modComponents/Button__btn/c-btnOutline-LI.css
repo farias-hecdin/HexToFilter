@@ -1,0 +1,18 @@
+/* btnOutline-LI
+   ====================================================================== */
+
+.c-btnOutline-LI {
+  border-radius: 50%;
+}
+.c-btnOutline-LI:hover {
+  border-color: var(--th-primary-text);
+}
+
+.c-btnOutline-LI__icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  filter: invert(64%) sepia(6%) saturate(30%) hue-rotate(314deg) brightness(86%) contrast(88%);
+}
+.c-btnOutline-LI:hover > .c-btnOutline-LI__icon {
+  filter: invert(98%) sepia(2%) saturate(123%) hue-rotate(185deg) brightness(117%) contrast(100%);
+}

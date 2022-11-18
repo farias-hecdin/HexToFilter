@@ -1,0 +1,44 @@
+/* CanvasColor
+   ====================================================================== */
+
+.c-CanvasColor {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.c-CanvasColor__frame {
+  height: 100%;
+  width: 100%;
+  background-color: var(--co-black); /* Default color */
+}
+
+.c-CanvasColor__title {
+  --shwPo: 1px; /* Shadow positive */
+  --shwNe: -1px; /* Shadow negative */
+  --shadowColor: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  z-index: 1;
+  width: 11rem;
+  font-family: var(--fo-secondary);
+  font-size: 25px;
+  text-shadow: var(--shwPo) var(--shwPo) 0 var(--shadowColor), var(--shwPo) var(--shwNe) 0 var(--shadowColor),
+    var(--shwNe) var(--shwPo) 0 var(--shadowColor), var(--shwNe) var(--shwNe) 0 var(--shadowColor),
+    var(--shwPo) 0px 0 var(--shadowColor), 0px var(--shwPo) 0 var(--shadowColor), var(--shwNe) 0px 0 var(--shadowColor),
+    0px var(--shwNe) 0 var(--shadowColor);
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--co-white);
+  white-space: nowrap;
+  opacity: 0.6;
+}
+.c-CanvasColor:hover .c-CanvasColor__title {
+  opacity: 1;
+}
+
+.c-CanvasColor__title.--left {
+  left: 5rem;
+}
+.c-CanvasColor__title.--right {
+  right: 5rem;
+}
