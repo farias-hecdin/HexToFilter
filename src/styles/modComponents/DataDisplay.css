@@ -1,17 +1,17 @@
-/* DataDisplay
+/* c_DataDisplay
    ====================================================================== */
 
-.c-DataDisplay {
+.c_DataDisplay {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.c-DataDisplay__title {
+.c_DataDisplay-title {
   text-transform: uppercase;
 }
 
-.c-DataDisplay__number {
+.c_DataDisplay-number {
   font-size: 3em;
   text-align: center;
 }

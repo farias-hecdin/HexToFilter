@@ -1,7 +1,7 @@
-/* Textbox
+/* c_Textbox
    ====================================================================== */
 
-.c-Textbox {
+.c_Textbox {
   width: 100%;
   padding: 0.2em;
   border: 0;
@@ -11,10 +11,12 @@
   color: var(--th-primary-text);
   background-color: var(--co-blank);
 }
-.c-Textbox:hover {
+
+.c_Textbox:hover {
   border-bottom: 1px solid var(--th-tertiary);
 }
-.c-Textbox:focus {
+
+.c_Textbox:focus {
   border-bottom: 1px solid var(--th-tertiary);
   outline: none;
 }

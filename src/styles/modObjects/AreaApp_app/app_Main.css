@@ -1,23 +1,23 @@
-/* appMain
+/* o_appMain
    ====================================================================== */
 
-.o-appMain {
+.o_appMain {
   padding: 2rem 4rem;
 }
 
-.o-appMain__content {
+.o_appMain-content {
   padding: 6rem 0 1rem;
   color: var(--th-primary-text);
 }
 
-.o-appMain__title {
+.o_appMain-title {
   margin-bottom: 0.25em;
   font-size: 1.2rem;
   font-weight: var(--fo-bold);
   text-align: center;
 }
 
-.o-appMain__text {
+.o_appMain-text {
   margin-bottom: 2em;
   text-align: center;
 }

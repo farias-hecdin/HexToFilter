@@ -1,19 +1,19 @@
-/* CanvasColor
+/* c_CanvasColor
    ====================================================================== */
 
-.c-CanvasColor {
+.c_CanvasColor {
   position: relative;
   display: flex;
   align-items: center;
 }
 
-.c-CanvasColor__frame {
+.c_CanvasColor-frame {
   height: 100%;
   width: 100%;
   background-color: var(--co-black); /* Default color */
 }
 
-.c-CanvasColor__title {
+.c_CanvasColor-title {
   --shwPo: 1px; /* Shadow positive */
   --shwNe: -1px; /* Shadow negative */
   --shadowColor: rgba(0, 0, 0, 0.3);
@@ -32,13 +32,14 @@
   white-space: nowrap;
   opacity: 0.6;
 }
-.c-CanvasColor:hover .c-CanvasColor__title {
+
+.c_CanvasColor:hover .c_CanvasColor-title {
   opacity: 1;
 }
 
-.c-CanvasColor__title.--left {
+.c_CanvasColor-title.--left {
   left: 5rem;
 }
-.c-CanvasColor__title.--right {
+.c_CanvasColor-title.--right {
   right: 5rem;
 }

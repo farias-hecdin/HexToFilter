@@ -4,9 +4,9 @@
 :root {
   --co-blank: transparent;
   --co-black: #000000;
-  --co-white: #ffffff;
+  --co-white: #FFFFFF;
   --co-mineShaft: #333333;
-  --co-gray: #8d8d8d;
-  --co-jade: #05c46b;
-  --co-coldGray: #1d1d1d;
+  --co-gray: #8D8D8D;
+  --co-jade: #05C46B;
+  --co-coldGray: #1D1D1D;
 }

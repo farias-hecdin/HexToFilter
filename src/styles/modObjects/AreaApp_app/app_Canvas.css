@@ -1,7 +1,7 @@
-/* appCanvas
+/* o_appCanvas
    ====================================================================== */
 
-.o-appCanvas {
+.o_appCanvas {
   position: relative;
   display: flex;
   height: 35vh;
@@ -9,10 +9,12 @@
   border-radius: 0.5rem;
   overflow: hidden;
 }
-.o-appCanvas__item {
+
+.o_appCanvas-item {
   flex-basis: 50%;
 }
-.o-appCanvas__float {
+
+.o_appCanvas-float {
   position: absolute;
   top: 50%;
   left: 50%;
