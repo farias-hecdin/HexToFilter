@@ -1,7 +1,6 @@
-/* c_Textbox
-   ====================================================================== */
+/* app-Textbox ============================================================= */
 
-.c_Textbox {
+.app-Textbox {
   width: 100%;
   padding: 0.2em;
   border: 0;
@@ -12,11 +11,11 @@
   background-color: var(--co-blank);
 }
 
-.c_Textbox:hover {
+.app-Textbox:hover {
   border-bottom: 1px solid var(--th-tertiary);
 }
 
-.c_Textbox:focus {
+.app-Textbox:focus {
   border-bottom: 1px solid var(--th-tertiary);
   outline: none;
 }

@@ -1,0 +1,24 @@
+/* app-Main ================================================================ */
+
+.app-Main {
+  padding: 2rem 4rem;
+}
+
+.app-Main_content {
+  display: flex;
+  flex-direction: column;
+  padding: 6rem 0 1rem;
+  color: var(--th-primary-text);
+}
+
+.app-Main_title {
+  margin-bottom: 0.25em;
+  font-size: 1.2rem;
+  font-weight: var(--fo-medium);
+  text-align: center;
+}
+
+.app-Main_text {
+  margin-bottom: 2em;
+  text-align: center;
+}

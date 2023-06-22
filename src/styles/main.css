@@ -1,51 +1,45 @@
-/* @IMPORT
-   ====================================================================== */
+/* @IMPORT ================================================================= */
 
 /* TABLE OF CONTENTS
  *
  * 1. BASE.......... Global styles (fonts, colors, theming)
- * 2. ELEMENTALS..... Settings (CSS reset, tags HTML)
- * 3. MODULES........ Components and objects (header, button, card, ...)
- * 4. UTILS.......... Utilities (data-*, states, javascript, ...)
+ * 2. ELEMENTAL..... Settings (CSS reset, tags HTML, ...)
+ * 3. MODULES....... Components and objects (header, button, card, ...)
+ * 4. UTILS......... Utilities (data-*, states, jscript, animations, ...)
  */
 
-/* BASES
-   *********************************** */
 
-@import "base/fonts.css";
-@import "base/colors.css";
-@import "base/themes.css";
+/* BASES ------------------------------------------------------------------- */
 
-
-/* ELEMENTALS
-   *********************************** */
-
-@import "elementals/normalize.css";
-@import "elementals/tags.css";
+@import "./base/fonts.css";
+@import "./base/colors.css";
+@import "./base/themes.css";
 
 
-/* MODULES
-   *********************************** */
+/* ELEMENTAL --------------------------------------------------------------- */
 
-/* Components */
-
-@import "modComponents/Button_btn/btn_OutlineHX.css";
-@import "modComponents/Button_btn/btn_OutlineLI.css";
-@import "modComponents/CanvasColor.css";
-@import "modComponents/DataDisplay.css";
-@import "modComponents/Links.css";
-@import "modComponents/Textbox.css";
+@import "./elemental/modern-normalize.min.css";
+@import "./elemental/tags.css";
 
 
-/* Objects */
+/* MODULES ----------------------------------------------------------------- */
 
-@import "modObjects/ThePage_pge/pge_Footer.css";
-@import "modObjects/ThePage_pge/pge_Header.css";
-@import "modObjects/ThePage_pge/pge_Layout.css";
-@import "modObjects/AreaApp_app/app_Canvas.css";
-@import "modObjects/AreaApp_app/app_Form.css";
-@import "modObjects/AreaApp_app/app_Main.css";
+/* ThePage */
+
+@import "./modules/ThePage-pge/pge-BtnPrimary.css";
+@import "./modules/ThePage-pge/pge-Footer.css";
+@import "./modules/ThePage-pge/pge-Header.css";
+@import "./modules/ThePage-pge/pge-Layout.css";
+@import "./modules/ThePage-pge/pge-Links.css";
+
+/* WebApp */
+
+@import "./modules/WebApp-app/app-BtnPrimary.css";
+@import "./modules/WebApp-app/app-Canvas.css";
+@import "./modules/WebApp-app/app-Form.css";
+@import "./modules/WebApp-app/app-Main.css";
+@import "./modules/WebApp-app/app-ScreenData.css";
+@import "./modules/WebApp-app/app-Textbox.css";
 
 
-/* UTILS
-   *********************************** */
+/* UTILS (empty) ----------------------------------------------------------- */

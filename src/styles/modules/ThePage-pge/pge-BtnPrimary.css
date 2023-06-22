@@ -1,20 +1,20 @@
-/* c_btnOutlineLI
-   ====================================================================== */
+/* pge-BtnPrimary ========================================================== */
 
-.c_btnOutlineLI {
+.pge-BtnPrimary {
+  display: flex;
   border-radius: 50%;
 }
 
-.c_btnOutlineLI:hover {
+.pge-BtnPrimary:hover {
   border-color: var(--th-primary-text);
 }
 
-.c_btnOutlineLI-icon {
+.pge-BtnPrimary_icon {
   width: 2.5rem;
   height: 2.5rem;
   filter: invert(64%) sepia(6%) saturate(30%) hue-rotate(314deg) brightness(86%) contrast(88%);
 }
 
-.c_btnOutlineLI:hover > .c_btnOutlineLI-icon {
+.pge-BtnPrimary:hover > .pge-BtnPrimary_icon {
   filter: invert(98%) sepia(2%) saturate(123%) hue-rotate(185deg) brightness(117%) contrast(100%);
 }

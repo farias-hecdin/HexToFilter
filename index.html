@@ -2,8 +2,8 @@
 <html lang="en-US">
   <head>
     <link rel="stylesheet" href="src/styles/main.css" />
-    <link rel="shortcut icon" href="src/media/favicon.png" type="image/x-icon" />
-    <link rel="icon" href="src/media/favicon.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="src/assets/favicon/favicon.png" type="image/x-icon" />
+    <link rel="icon" href="src/assets/favicon/favicon.png" type="image/x-icon" />
     <title>HexToFilter: HEX to CSS Filter generator</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -15,111 +15,111 @@
     <meta property="og:description" content="Hex to CSS Filter Generator" />
     <meta property="og:url" content="https://farias-hecdin.github.io/HexToFilter/" />
   </head>
-  <body class="o_pgeLayout" data-theme="normal">
-    <header class="o_pgeLayout-header / o_pgeHeader">
-      <h1 class="o_pgeHeader-title">HexToFilter</h1>
-      <p class="o_pgeHeader-text">
+  <body class="pge-Layout" data-theme="normal">
+    <header class="pge-Layout_header / pge-Header">
+      <h1 class="pge-Header_title">HexToFilter</h1>
+      <p class="pge-Header_text">
         Hex to CSS Filter Generator.
-        Now you will be able to add color to your favorite icons easily.
+        Now you will be able to add color</br> to your favorite icons easily.
       </p>
     </header>
-    <main class="o_pgeLayout-main / o_appMain">
-      <aside class="o_appCanvas">
-        <div class="o_appCanvas-item / c_CanvasColor">
-          <div class="c_CanvasColor-frame" id="id_hexPixel"></div>
-          <span class="c_CanvasColor-title --left">BACKGROUND</span>
+    <main class="pge-Layout_main / app-Main">
+      <aside class="app-Canvas">
+        <div class="app-Canvas_item">
+          <div class="app-Canvas_frame" id="js-HexPixel"></div>
+          <span class="app-Canvas_title --left">BACKGROUND</span>
         </div>
-        <div class="o_appCanvas-item / c_CanvasColor">
-          <div class="c_CanvasColor-frame" id="id_filterPixel"></div>
-          <span class="c_CanvasColor-title --right">FILTER</span>
+        <div class="app-Canvas_item">
+          <div class="app-Canvas_frame" id="js-FilterPixel"></div>
+          <span class="app-Canvas_title --right">FILTER</span>
         </div>
-        <div class="o_appCanvas-float / c_DataDisplay">
-            <span class="c_DataDisplay-title">Percentage loss</span>
-            <p class="c_DataDisplay-number" id="id_lossDetail">0.0%</p>
+        <div class="app-Canvas_float / app-ScreenData">
+            <span class="app-ScreenData_title">Percentage loss</span>
+            <p class="app-ScreenData_number" id="js-LossDetail">0.0%</p>
         </div>
       </aside>
-      <div class="o_appForm">
-        <fieldset class="o_appForm-item">
-          <label for="id_targetHex">
-            <p class="o_appForm-text">
+      <div class="app-Form">
+        <fieldset class="app-Form_item">
+          <label for="js_TargetHex">
+            <p class="app-Form_text">
               <b>Enter the color Hex</b>
               – Real pixel, color applied through CSS
               <code>background-color</code>
             </p>
           </label>
-          <div class="o_appForm-field">
+          <div class="app-Form_field">
             <input
-              class="c_Textbox"
-              id="id_targetHex"
+              class="app-Textbox"
+              id="js-TargetHex"
               type="text"
-              placeholder="target hex"
+              placeholder="Target hex"
               value="#00a4d6"
               spellcheck="false"
               autocorrect="off"
               required
             />
-            <button class="m_appForm-button / c_btnOutlineHX" id="id_execute">
-              <span class="c_btnOutlineHX-text">Converter</span>
+            <button class="app-Form_button / app-BtnPrimary" id="js-Execute">
+              <span class="app-BtnPrimary_text">Converter</span>
             </button>
           </div>
         </fieldset>
-        <div class="o_appForm-item">
-          <label for="id_textInput">
-            <p class="o_appForm-text">
+        <div class="app-Form_item">
+          <label for="js-textInput">
+            <p class="app-Form_text">
               <b>Result obtained</b>
               – Filtered pixel, color applied through CSS
               <code>filter</code>
             </p>
           </label>
-          <div class="o_appForm-field">
-            <input 
-              class="c_Textbox" 
-              id="id_textInput" 
-              type="text" 
-              placeholder="css filter" 
+          <div class="app-Form_field">
+            <input
+              class="app-Textbox"
+              id="js-TextInput"
+              type="text"
+              placeholder="Css filter"
             />
-            <button class="o_appForm-button / c_btnOutlineHX" id="id_copy">
-              <span class="c_btnOutlineHX-text">Copy</span>
+            <button class="app-Form_button / app-BtnPrimary" id="js-Copy">
+              <span class="app-BtnPrimary_text">Copy</span>
             </button>
           </div>
         </div>
       </div>
-      <section class="o_appMain-content">
-        <h2 class="o_appMain-title">How to use HexToFilter?</h2>
-        <p class="o_appMain-text">
+      <section class="app-Main_content">
+        <h2 class="app-Main_title">How to use HexToFilter?</h2>
+        <p class="app-Main_text">
           To use HexToFilter just enter your hex color, click the "Convert" button, copy the result and paste it into
           your CSS stylesheet.
         </p>
-        <h2 class="o_appMain-title">Why the icon does not change to the chosen color?</h2>
-        <p class="o_appMain-text">
+        <h2 class="app-Main_title">Why the icon does not change to the chosen color?</h2>
+        <p class="app-Main_text">
           For this tool to work properly, the initial color of the icon must be black. If your icon is not black, you
           can prefix</br>
           <code>brightness(0%) saturation(100%)</code>
           to your filter property to convert the icon set to black.<br>
-          If the website is not working properly it is probably because you are using an outdated version of your 
+          If the website is not working properly it is probably because you are using an outdated version of your
           browser.
         </p>
       </section>
     </main>
-    <footer class="o_pgeLayout-footer">
-      <div class="o_pgeFooter">
-        <div class="o_pgeFooter-wrap">
-          <p class="o_pgeFooter-text">
-            This website design was done by 
-            <a class="c_Links" href="https://ve.linkedin.com/in/farias-hecdin" target="_blank">Hecdin Farias</a>.
+    <footer class="pge-Layout_footer">
+      <div class="pge-Footer">
+        <div class="pge-Footer_wrap">
+          <p class="pge-Footer_text">
+            This website design was done by
+            <a class="pge-Links" href="https://github.com/farias-hecdin" target="_blank" rel="noopener">Hecdin Farias</a>.
           </p>
         </div>
-        <nav class="o_pgeFooter-social">
-          <a class="o_pgeFooter-button / c_btnOutlineLI" href="https://github.com/farias-hecdin" target="_blank" rel=”noopener”>
-            <img class="c_btnOutlineLI-icon" src="src/media/icons/github.svg" alt="Github" />
+        <nav class="pge-Footer_social">
+          <a class="pge-Footer_button / pge-BtnPrimary" href="https://github.com/farias-hecdin/HexToFilter" target="_blank" rel="noopener">
+            <img class="pge-BtnPrimary_icon" src="src/assets/icons/github.svg" alt="Logo Github" />
           </a>
         </nav>
-        <div class="o_pgeFooter-wrap">
-          <p class="o_pgeFooter-text --right">
+        <div class="pge-Footer_wrap">
+          <p class="pge-Footer_text --right">
             Credit for the development of the "Hex to CSS filter" algorithm
-            <a class="c_Links" href="https://github.com/barretts" target="_blank" rel=”noopener”>Barrett Sonntag</a>
+            <a class="pge-Links" href="https://github.com/barretts" target="_blank" rel="noopener">Barrett Sonntag</a>
             and
-            <a class="c_Links" href="https://bit.ly/3Bptyik" target="_blank" rel=”noopener”>MultiplyByZer0</a>.
+            <a class="pge-Links" href="https://stackoverflow.com/questions/42966641/how-to-transform-black-into-any-given-color-using-only-css-filters/43960991#43960991" target="_blank" rel="noopener">MultiplyByZer0</a>.
           </p>
         </div>
       </footer>

@@ -1,7 +1,6 @@
-/* c_btnOutlineHX
-   ====================================================================== */
+/* app-BtnPrimary ========================================================== */
 
-.c_btnOutlineHX {
+.app-BtnPrimary {
   padding: 0.5em 1em;
   width: 8em;
   border: 1px solid var(--th-tertiary);
@@ -9,12 +8,12 @@
   background-color: var(--co-blank);
 }
 
-.c_btnOutlineHX:hover {
+.app-BtnPrimary:hover {
   color: var(--th-secondary);
   background-color: var(--th-tertiary);
 }
 
-.c_btnOutlineHX-text {
+.app-BtnPrimary_text {
   font-weight: var(--fo-medium);
   pointer-events: none;
 }

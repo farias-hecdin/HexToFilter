@@ -1,0 +1,18 @@
+/* pge-Header ============================================================== */
+
+.pge-Header {
+  display: flex;
+  flex-direction: column;
+  color: var(--th-primary-text);
+}
+
+.pge-Header_title {
+  font-weight: var(--fo-thin);
+  font-size: 3rem;
+  text-align: center;
+}
+
+.pge-Header_text {
+  margin-top: 0.5rem;
+  text-align: center;
+}

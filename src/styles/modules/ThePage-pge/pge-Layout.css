@@ -1,0 +1,20 @@
+/* pge-Layout ============================================================== */
+
+.pge-Layout {
+  background: var(--th-secondary);
+}
+
+.pge-Layout_header {
+  padding: 2rem 4rem 1.5rem;
+  background: var(--th-primary);
+}
+
+.pge-Layout_main {
+  min-height: 60vh;
+  background: var(--th-primary);
+}
+
+.pge-Layout_footer {
+  padding: 2rem 4rem 3rem;
+  height: 100%;
+}

@@ -1,5 +1,4 @@
-/* HTML Tags
-   ====================================================================== */
+/* HTML Tags =============================================================== */
 
 /* All */
 
@@ -15,20 +14,24 @@
 
 html {
   scroll-behavior: smooth;
-  font-size: 16px;
 }
 
 body {
   min-height: 100vh;
   width: 100vw;
+  font-size: 16px;
 }
 
 img {
   display: block;
 }
 
+img:not([alt]) {
+  border: 0.2rem solid red;
+}
+
 code {
-  margin: 0 0.1rem;
+  margin: 0 .1rem;
   font-family: var(--fo-secondary);
   color: #c99aff !important;
 }
@@ -43,10 +46,6 @@ ul {
   margin: 0;
   padding-left: 0;
   list-style: none;
-}
-
-img:not([alt]) {
-  border: 0.2rem solid red;
 }
 
 p {
@@ -72,19 +71,22 @@ h6 {
   color: var(--co-black-10);
 }
 
-input,
-label,
-button,
-span,
-div,
 a,
 p,
 li,
+span,
+div,
+button,
+input,
+textarea,
+label,
+section,
+article,
 summary {
   font-family: var(--fo-base);
   font-weight: var(--fo-regular);
+  font-size: .9rem;
   color: var(--co-black-10);
-  font-size: 0.9rem;
 }
 
 a:link,

@@ -1,7 +1,6 @@
-/* o_pgeFooter
-   ====================================================================== */
+/* pge-Footer ============================================================== */
 
-.o_pgeFooter {
+.pge-Footer {
   display: grid;
   gap: 2rem;
   align-items: flex-start;
@@ -11,22 +10,22 @@
   color: var(--th-secondary-text);
 }
 
-.o_pgeFooter-wrap {
+.pge-Footer_wrap {
   display: flex;
   flex-basis: 30%;
   align-items: center;
 }
 
-.o_pgeFooter-social {
+.pge-Footer_social {
   display: flex;
   justify-content: center;
   align-items: flex-start;
 }
 
-.o_pgeFooter-text.--right {
+.pge-Footer_text.--right {
   text-align: right;
 }
 
-.o_pgeFooter-text > a:hover {
+.pge-Footer_text > a:hover {
   color: var(--co-white);
 }

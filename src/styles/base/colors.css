@@ -1,12 +1,11 @@
-/* COLORS
-   ====================================================================== */
+/* COLORS ================================================================== */
 
 :root {
-  --co-blank: transparent;
   --co-black: #000000;
-  --co-white: #FFFFFF;
-  --co-mineShaft: #333333;
+  --co-blank: transparent;
+  --co-coldGray: #1D1D1D;
   --co-gray: #8D8D8D;
   --co-jade: #05C46B;
-  --co-coldGray: #1D1D1D;
+  --co-mineShaft: #333333;
+  --co-white: #FFFFFF;
 }
